@@ -102,6 +102,10 @@ main {
     width: 50%;
 }
 
+ul {
+    list-style: none;
+}
+
 main section {
     padding-top: 5rem;
 }
@@ -199,4 +203,9 @@ main h1 {
     padding: 0;
     margin-top: 5rem;
     background-color: var(--color-tertiary1);
+}
+
+.cartItem {
+    display: grid;
+    grid-template-columns: auto 10% 10%;
 }
