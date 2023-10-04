@@ -62,7 +62,6 @@ body {
 header {
     top: 0;
     align-content: center;
-    align-items: center;
     display: grid;
     grid-template-columns: 35% auto 35%;
     z-index: 1;
@@ -151,7 +150,7 @@ li {
 button.boton {
     cursor: pointer;
     position: relative;
-    border: 1px solid white;
+    border: 1px solid #A62A6C;
 }
 
 .heroContent {
