@@ -36,9 +36,18 @@
     --color-primary1: #ffffff;
     --color-primary2: #ff00ff;
     --color-secondary: #000000;
-    --color-tertiary1: #ffaaff;
+    --color-tertiary1: #ffccff;
     --color-tertiary2: #79A1EE;
     --color-border: #C7C7C7;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 100;
 }
 
 html {
@@ -87,8 +96,7 @@ header div {
 }
 
 main {
-    height: 100%;
-    padding: 1rem;
+    padding: 5rem;
     padding-left: 25%;
     padding-right: 25%;
     width: 50%;
@@ -184,4 +192,11 @@ main h1 {
 
 .reviews img {
     width: 10rem;
+}
+
+.info {
+    display: flex;
+    padding: 0;
+    margin-top: 5rem;
+    background-color: var(--color-tertiary1);
 }
