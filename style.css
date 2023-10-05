@@ -220,3 +220,17 @@ main h1 {
 .cartItem div {
     justify-content: left;
 }
+
+.produkt {
+    text-align: center;
+}
+
+.produkt button {
+    height: 2rem;
+    width: 8rem;
+    color: black;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid #A62A6C;
+}
