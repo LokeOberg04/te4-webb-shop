@@ -209,3 +209,14 @@ main h1 {
     display: grid;
     grid-template-columns: auto 10% 10%;
 }
+
+.cartItem * {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.cartItem div {
+    justify-content: left;
+}
