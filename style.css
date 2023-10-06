@@ -72,16 +72,16 @@ header {
     top: 0;
     align-content: center;
     display: grid;
-    grid-template-columns: 35% auto 35%;
+    grid-template-columns: 40% 20% 40%;
     z-index: 1;
     position: fixed;
     height: 5rem;
-    width: 50%;
+    width: 100%;
     background-color: var(--color-primary1);
     border-color: var(--color-border) !important;
     border-bottom: 1px solid;
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 header * {
@@ -148,6 +148,11 @@ footer a {
 ul,
 li {
     margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
 }
 
 .hero {
@@ -244,4 +249,26 @@ main h1 {
 .checkout button {
     color: black;
     width: 8rem;
+}
+
+@media only screen and (max-width: 750px) {
+
+    header input,
+    nav {
+        display: none;
+    }
+
+    header {
+        padding: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+    main {
+        padding: 0;
+        margin: 0;
+    }
+
+    main * {}
+
 }
