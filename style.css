@@ -218,6 +218,7 @@ main h1 {
 }
 
 .cartItem div {
+    display: flex;
     justify-content: left;
 }
 
@@ -233,4 +234,14 @@ main h1 {
     cursor: pointer;
     position: relative;
     border: 1px solid #A62A6C;
+}
+
+.checkout {
+    text-align: right;
+    padding-top: 1rem;
+}
+
+.checkout button {
+    color: black;
+    width: 8rem;
 }
